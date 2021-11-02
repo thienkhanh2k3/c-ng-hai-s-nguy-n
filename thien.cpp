@@ -1,15 +1,13 @@
-#include<iostream>
+#include<stdio.h>
 int main(){
-    int a,b,tong,hieu;
-    printf("nhap so a :");
-    scanf("%d",&a);
-    printf("nhap so b:");
-    scanf("%d",&b);
-    tong=a+b;
-    hieu=a-b;
-
-    printf("tong hai so la:%d\n",tong);
-    printf("hieu hai so la:%d",hieu);
-    
+    int x,y,dien_tich,chu_vi;
+    printf("nhap chieu dai hinh chu nhat:");
+    scanf("%d",&x);
+    printf("nhap chieu rong hinh chu nhat:");
+    scanf("%d",&y);
+    chu_vi=(x+y)*2;
+    dien_tich=x*y;
+    printf("chu vi hinh chu nhat la:%d\n",chu_vi);
+    printf("dien tich hinh chu nhat la:%d",dien_tich);
     return 0;
 }
