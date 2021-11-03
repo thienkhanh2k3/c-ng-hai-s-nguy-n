@@ -1,13 +1,11 @@
 #include<stdio.h>
 int main(){
-    int x,y,dien_tich,chu_vi;
-    printf("nhap chieu dai hinh chu nhat:");
-    scanf("%d",&x);
-    printf("nhap chieu rong hinh chu nhat:");
-    scanf("%d",&y);
-    chu_vi=(x+y)*2;
-    dien_tich=x*y;
-    printf("chu vi hinh chu nhat la:%d\n",chu_vi);
-    printf("dien tich hinh chu nhat la:%d",dien_tich);
+    float r,dien_tich,chu_vi,pi=3.14;
+    printf("nhap ban kinh hinh tron:");
+    scanf("%f",&r);
+    chu_vi=(2*pi*r);
+    dien_tich=(pi*(r*r));
+    printf("chu vi hinh tron la:%f\n",chu_vi);
+    printf("dien tich hinh tron la:%f",dien_tich);
     return 0;
 }
